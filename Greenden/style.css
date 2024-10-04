@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background-color:#dafbf0;
+    color: black;
+    padding: 15px;
+}
+.top{
+    border-color: grey;
+    border-style: solid;
+}
+.topic{
+    display: inline;
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+    margin-left: 950px;
+    position: sticky;   
+}
+li{
+    cursor: pointer;
+}
+li:hover{
+    color: blue;
+}
+.head{
+    background-color:#dafbf0;
+}
+.head1{
+    padding-top: 20px;
+    padding-left: 40px;
+    font: bold
+}
+h2{
+    padding-top:40px;
+    padding-left: 40px;
+}
+.fo{
+    display: inline-block;
+    border:solid black 2px;
+    background-color: black;
+    width: 150px;
+    height: 30px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.head2{
+    color: gray;
+    padding-left: 40px;
+    padding-top: 30px;
+    cursor: pointer;
+    width: 280px;
+    height: 80px;
+}
+.head2:hover{
+    color: black;
+}
+.img{
+    left: 1050px;
+    borer:solid black 2px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+}
+h6{
+    font-size: 20px;
+}
+.ab{
+    padding-top: 20px;
+}
+.main{
+    font-size: 50px;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+h4{
+    font-size: 20px;
+}
+.box1{
+    border:solid black 2px;
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+}
+.three{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.three1{
+    border: solid white 2px;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    position: relative;
+    background-color:#dafbf0;
+    text-align: center;
+}
+.three11{
+    border: solid black 2px;
+    height: 300px;
+    width: 150px;
+}
+.pot{
+    position: absolute;
+    bottom: 150px;
+    left: 20px;
+}
+.pot1{
+    position: absolute;
+    bottom: 150px;
+    right:  20px;
+}
+.three2{
+    text-align: center;
+    background-color:#dafbf0;
+    padding-bottom: 10px;
+}
+.part2{
+    margin-top: 30px;
+}
+.flowers{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    text-align: center;
+}
+.und{
+    display: flex;
+    margin-top: 70px;
+    border: solid #dafbf0 2px;
+    height: 300px;
+    background-color: #dafbf0;
+    text-align: justify;
+    justify-content: space-between;
+}
+.und1{
+    position: absolute;
+    top: 1570px;
+    left: 0px;
+}
+.und2{
+    border: solid #dafbf0 2px;
+    height: 100px;
+    margin-top: 100px;
+    margin-right: 200px;
+    margin-left: 300px;
+}
+.jo{
+    text-align: center;
+}
+.do{
+    margin-left: 280px;
+    margin-top: 10px;   
+}
+input{
+    width: 800px;
+    height: 20px;
+}
+.sub{
+    text-align: center;
+    margin-top: 20px;
+}
+button{
+    display: inline;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+button:hover{
+    color:red;
+}
+.final{
+    border: solid #dafbf0 2px;
+    height: 200px;
+    margin-top: 20px;
+    background-color:#dafbf0;
+}
+.final1{
+    margin-top: 60px;
+    margin-left: 40px;
+    padding: 10px;
+}
+.final3{
+    display: flex;
+}
+.final2{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#vj{
+    margin-top: 20px;
+    color: gray;
+    cursor: pointer;
+    width: 200px;
+}
+#vj:hover{
+    color: blue;
+}
+img{   
+transition-duration: 2s;
+}
+img:hover{
+    transform: scale(1.05);
+}

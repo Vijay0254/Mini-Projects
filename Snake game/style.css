@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: #f5e8ba;
+    text-align: center;
+}
+h2{
+    color: darkgreen;
+}
+#msg{
+    margin-bottom: 1em;
+}
+#gameboard{
+    border: 3px solid black;
+    margin-bottom: 1em;
+}
+#score{
+    font-size: 2em;
+}
+button{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(26, 26, 32);
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #f5e8ba;
+}

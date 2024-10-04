@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p class="popup">Form submitted successfully</p>
+    <div class="container">
+        <div class="form-container">
+            <h1>Registration Form</h1>
+            <form>
+                <div class="usernamecontainer">
+                    <input placeholder="Name" type="text" class="input-field" id="username">
+                    <i class="fa-solid fa-circle-check" style="color: #6be9fb;"></i>
+                    <label for="username">Please Enter your Name</label>
+                </div>
+                
+                <div class="phonecontainer">
+                    <input placeholder="Phone" type="tel" class="input-field" id="phone">
+                    <i class="fa-solid fa-circle-check" style="color: #6be9fb;"></i>
+                    <label for="phone">Please enter 10 digit number</label>
+                </div>
+
+                <div class="emailcontainer">
+                    <input placeholder="E-mail" type="email" class="input-field" id="email">
+                    <i class="fa-solid fa-circle-check" style="color: #6be9fb;"></i>
+                    <label for="email">Please enter a valid mail id</label>
+                </div>
+
+                <div class="passwordcontainer">
+                    <input placeholder="Password" type="password" class="input-field" id="password">
+                    <i class="fa-solid fa-circle-check" style="color: #6be9fb;"></i>
+                    <label for="password">Enter a Password</label>
+                </div>
+
+                <div class="conpasswordcontainer">
+                    <input placeholder="Confirm Passwod" type="password" class="input-field" id="conpassword">
+                    <i class="fa-solid fa-circle-check" style="color: #6be9fb;"></i>
+                    <label for="conpassword">Enter value doesn't Match</label>
+                </div>
+                
+                <input  type="submit" class="submit-field" id="submit">
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
